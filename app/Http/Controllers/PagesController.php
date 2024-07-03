@@ -6,8 +6,26 @@ use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
-    public function homePage(){
-
-        return view();
+    public function cpanel(){
+        return view('pages.cpanel');
     }
+
+
+  /*  public function managerslist(){
+
+        return view('pages.managerslist');
+
+    }*/
+
+
+    public function managerslist(){
+
+        return view('pages.managerslist');
+
+    }
+
+
+
+
+    
 }
